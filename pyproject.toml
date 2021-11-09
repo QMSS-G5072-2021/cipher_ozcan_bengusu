@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cipher_bo2297"
+version = "0.1.0"
+description = "MDS HW7 package of bo2297, it is a package for cipher function and some tests"
+authors = ["poetry init"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^n"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
