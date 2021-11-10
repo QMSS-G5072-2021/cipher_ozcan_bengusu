@@ -1,8 +1,5 @@
-```
-def cipher(text, shift, encrypt=True):
-
- """Shift each letter in a text on the alphabet by an indicated index
-    Parameters
+"""Shift each letter in a text on the alphabet by an indicated index
+   Parameters
     ----------
     text: str
     shift: int
@@ -15,7 +12,9 @@ def cipher(text, shift, encrypt=True):
     cpc
     --------
     >>> count_words("text.txt")
-    """
+  """
+
+def cipher(text, shift, encrypt=True):
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
@@ -27,4 +26,3 @@ def cipher(text, shift, encrypt=True):
             new_index %= len(alphabet)
             new_text += alphabet[new_index:new_index+1]
     return new_text
-```
