@@ -1,0 +1,40 @@
+:py:mod:`src.cipher_func`
+=========================
+
+.. py:module:: src.cipher_func
+
+.. autoapi-nested-parse::
+
+   Shift each letter in a text on the alphabet by an indicated index
+   Parameters
+    ----------
+    text: str
+    shift: int
+    encrypt: True by default
+
+    Returns: ciphered string
+    -------
+    Examples:
+    >>> cipher(bob, 1, True)
+    cpc
+    --------
+    >>> count_words("text.txt")
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   src.cipher_func.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+
